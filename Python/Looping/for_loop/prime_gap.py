@@ -2,11 +2,10 @@
 
 n = int(input("Enter the number: "))
 
-count = 0
+previous_number = 0
+
 
 for i in range(2,n+1):
-
-    difference = 0
 
     for j in range(2,i):
 
@@ -16,17 +15,11 @@ for i in range(2,n+1):
 
     else:
 
-        count += 1
+        if previous_number != 0:
 
-        if count == 2:
-
-            difference = i - k
-
-            print(f"Difference between {i} and {k} is {difference}")
-
-            count = 0
-
-        k = i
+            print(f"Difference between {i} and {previous_number} is {i - previous_number}")
+    
+        previous_number = i
 
     
 
