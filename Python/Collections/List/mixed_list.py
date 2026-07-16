@@ -1,10 +1,10 @@
 # wap to classify elements and count, alphabets,digit and special chars
 
-list = ["A","5","@","b","9","#","z"]
+words = ["A","5","@","b","9","#","z"]
 alpha = []
 digit = []
 others = []
-for i in list:
+for i in words:
     if i.isalpha():
 
         alpha.append(i)

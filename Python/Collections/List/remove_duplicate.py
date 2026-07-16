@@ -1,9 +1,15 @@
-list = ["Python", "java", "PYTHON", "Java", "C", "c"]
+words = ["Python", "java", "PYTHON", "Java", "C", "c"]
 
-new = []
+for i in range(0,len(words)):
 
-for i in list:
-    if i.lower() not in new:
-        new.append(i.lower())
+    words[i] = words[i].lower()
 
-print(new)
+for i in words:
+    
+    if words.count(i) > 1:
+        for j in range(words.count(i) - 1):
+            words.remove(i)
+    if i not in words:
+        words.append(i)
+
+print(words)

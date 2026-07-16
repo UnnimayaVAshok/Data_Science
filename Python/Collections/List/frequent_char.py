@@ -1,5 +1,5 @@
 words = ["apple","banana","grapes"]
-
+frequent_chars = []
 for i in words:
     count = 0
     for j in i:
@@ -8,4 +8,8 @@ for i in words:
 
             count = i.count(j)
             char = j
-    print(char,count)
+    if count > 1:
+
+        frequent_chars.append(char)
+        
+print(frequent_chars)

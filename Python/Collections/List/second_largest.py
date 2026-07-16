@@ -4,10 +4,21 @@
 
 # secondlargst > i > largset 
 
-numbers = [4,8,5,6,2,9]
+numbers = [1,8,5,6,2,9]
 
 largest = numbers[0]
 sec_largest = numbers[1]
+
+if numbers[0] < numbers[1]:
+
+    largest = numbers[1]
+
+    sec_largest = numbers[0]
+
+else:
+    largest = numbers[0]
+
+    sec_largest = numbers[1]
 
 for i in numbers:
 
@@ -19,10 +30,5 @@ for i in numbers:
     elif i > sec_largest and i < largest:
 
         sec_largest = i
-
-    elif i >= largest and i < sec_largest:
-
-        sec_largest = largest
-        largest = i
 
 print(largest,sec_largest)
