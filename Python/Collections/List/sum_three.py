@@ -3,7 +3,7 @@
 numbers = [1,2,3,4,5,6,7]
 
 target = 9
-
+result = []
 def sum_three_numbers(elements):
 
     for i in elements:
@@ -14,6 +14,8 @@ def sum_three_numbers(elements):
 
                 if i + j + k == target:
 
-                    print(i,j,k)
+                    result.append([i,j,k])
+
+    print(result)
 
 sum_three_numbers(numbers)
