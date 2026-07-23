@@ -1,4 +1,5 @@
-"""def recursive(text):
+"""
+def recursive(text):
 
     for i in text:
 
