@@ -56,6 +56,7 @@ file.close()
 
 file = open("D:/Data_Science/Data_Science/Python/Basics/new_1.py","a")
 
+
 file.write(" Thank you")
 
 file.close
