@@ -20,7 +20,7 @@ print("Thank you")
 # assert >>> AssertError
 #=============================
 
-# used to check a condition is True.If the condition is false Python automatically raises a AsserError
+# used to check a condition is True.If the condition is false Python automatically raises a AssertError
 
 # used for debugging and unit testing to catch program mistakes
 

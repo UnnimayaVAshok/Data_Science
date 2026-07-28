@@ -1,6 +1,6 @@
 # map()
 
-# applies afunction to every item in iterable
+# applies a function to every item in iterable
 
 # syntax
 

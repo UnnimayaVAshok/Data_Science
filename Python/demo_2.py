@@ -2,7 +2,7 @@
 #=============
 
 # it is a python file that contains variables,function or code
-#  which can be reused in othet modules (programs)
+#  which can be reused in other modules (programs)
 
 # Advantages
 #=============

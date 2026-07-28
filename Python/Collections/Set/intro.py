@@ -12,7 +12,7 @@ set_2 = {4,5,6,7,8}
 
 set_1.union(set_2) # {1,2,3,4,5,6,7,8}
 
-# combine all he elements from the given set and return in anew set
+# combine all he elements from the given set and return in a new set
 
 set_1.intersection(set_2) # {4,5}
 

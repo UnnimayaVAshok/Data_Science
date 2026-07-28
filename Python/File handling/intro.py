@@ -7,7 +7,7 @@
 # Type of modes in file handling
 
 # read  "r"
-# writr "w"
+# write "w"
 # append "a"
 # delete
 
@@ -64,7 +64,7 @@ file.close
 
 # using append mode it cannot overwrite the content in given file
 
-# just append the content eith the existing data in the given file
+# just append the content with the existing data in the given file
 """
 with open("new_1.py","w") as file:
 
