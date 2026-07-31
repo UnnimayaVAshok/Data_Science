@@ -5,6 +5,7 @@ Polymorphism
 The ability of different classes to respond to the same method call in their  own unique way
 
 same method name but different implementation(functionality)
+
 """
 
 class A():
@@ -40,7 +41,7 @@ class A():
 Method overriding
 ==========================
 
-feature that lets a child class provide its own specific version of a method already defined i its parent class
+feature that lets a child class provide its own specific version of a method already defined in its parent class
 
 """
 class A():

@@ -13,7 +13,7 @@ method_4 for display the name,current balance
 
 class ATM():
 
-    bank_name = "sbi"
+    bank_name = "sbi"        # Attribute
     location = "kochi"
 
     def get_details(self,name,balance):
