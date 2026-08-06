@@ -43,5 +43,42 @@ keywords
 =================
 between value1 and value2
 
-                              
+order by 
+===============
+is used to sort the result set of a query in either ascending or descneding order
+
+default - ascending 
+
+limit
+================
+is used to restrict the number of records returned by a query
+
+
+Aggregate functions
+==========================
+count()         select count(*) from table_name;
+                select count(*) from table_name where condition;
+                select count(*) as column_name from table_name where condition;
+
+sum()           select sum(column_name) as new_name from tablename where condition;
+
+avg()           select avg(column_name) as new_name from tablename where condition;
+
+max()           select max(column_name) as new_name from tablename where condition;
+
+min()           select min(column_name) as new_name from tablename where condition;
+
+
+subquery
+===========
+select name,mark from academics where mark = (select max(mark) from academics);
+
+select name,mark from academics where mark > (select avg(mark) from academics);
+
+like
+=============
+select name from academics where name like '%a';
+select name from academics where name like 'a%'; 
+
+
 """

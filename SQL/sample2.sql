@@ -53,3 +53,10 @@ select * from employees where age > 21 and gender = "male";
 select * from employees where age > 21 or gender <> "male";
 select * from employees where age > 25 and age < 32;
 select * from employees where age between 25 and 32;
+
+select * from employees order by age desc;
+select f_name,age from employees order by f_name desc;
+
+select * from employees limit 3;
+select * from employees order by age desc limit 3;
+select f_name,age,email from employees order by age desc limit 1;
