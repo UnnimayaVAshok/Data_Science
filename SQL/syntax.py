@@ -80,5 +80,35 @@ like
 select name from academics where name like '%a';
 select name from academics where name like 'a%'; 
 
+primary key
+=================
+a primary key uniquely identifies each row within a single database table
+
+foreign key
+=================
+Foreign key links data between two tables by referencing the primary key of another table
+
+foreign key setting
+======================
+foreign key (current_table_column_name) references other_table_name(primary_column_name);
+
+relationships
+=============
+one to many - foreign key default
+one to one
+many to many
+many to one
+
+
+joins - default inner join
+=========
+inner join - only rows that heve matching values in both tables
+
+left join - all rows from the left table,plus matched rows from the right table.
+            unmatched right rows return null,
+
+right join - all rows from the right table,plus matched rows from the left table
+
+outer join - all rows and records from both tables.
 
 """

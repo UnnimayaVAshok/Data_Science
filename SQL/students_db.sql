@@ -43,5 +43,5 @@ select name,age from academics order by age desc limit 1;
 
 select name,mark from academics where mark > (select avg(mark) from academics);
 
-select name from academics where name like '%a';
+select name from academics where name like "%a";
 
