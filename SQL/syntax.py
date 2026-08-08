@@ -111,4 +111,8 @@ right join - all rows from the right table,plus matched rows from the left table
 
 outer join - all rows and records from both tables.
 
+group by
+==============
+is used to combine rows having the same value into groups,so we can perform calculation on each group
+
 """
