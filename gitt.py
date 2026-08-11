@@ -5,7 +5,7 @@ It track changes made in files(modules) over time.
 
 (Each change considered as a version)
 
-It allos us to go back to previous version easily
+It allows us to go back to previous version easily
 
 
 
