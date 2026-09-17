@@ -22,7 +22,7 @@
 # =====================
 # regression is a type of supervised learning used to predict the 
 # continuous numerical value
-# eg: houseprice,tempearture,sale prediction
+# eg: houseprice,temperature,sale prediction
 
 # Algorithms
 # ===================
@@ -56,8 +56,18 @@
 # 3.1,2.9,2.4,0.5,1.3,2.5
 # 0.5,1.3,2.4,2.5,2.9,3.1
 
+# student          distance
+# -----------     ------------
+# A                 28.28
+# B                 23.19
+# C                 18.11
+# D                 3
+# E                 2.23
+# F                 12.16
+
+# 2.23,3,12,16,18,11,23.19,28.28
 # k = 5
-# 0.5,1.3,2.4,2.5,2.9
+# 2.23,3,12,16,18,11,23.19
 # pass,pass,pass,fail,fail
 # it chooses pass at the majority is pass
 # pass count = 3
