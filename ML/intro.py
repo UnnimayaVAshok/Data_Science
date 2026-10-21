@@ -1,3 +1,8 @@
+"""
+chi-square test is used to analyse connection with object feature and output feature
+"""
+
+
 # Machine Learning
 # =====================
 
@@ -66,6 +71,7 @@
 # F                 12.16
 
 # 2.23,3,12,16,18,11,23.19,28.28
+
 # k = 5
 # 2.23,3,12,16,18,11,23.19
 # pass,pass,pass,fail,fail

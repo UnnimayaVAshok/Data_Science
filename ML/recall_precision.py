@@ -1,4 +1,7 @@
 """
+accuract_score
+==================
+tp + tN/tp+tn+fp+fn
 Recall
 ================
 out of all actual positive cases how many did the model predited correctly(TP)
@@ -25,22 +28,22 @@ f1-score 0 =      ------------------------
                   (recall 0 + precision 0)
 
                         recall(1) + racall(0)
-weighted_avg recall = ---------------------------
+macro_avg recall = ---------------------------
                                   2
 
 
                         precision(1) + precision(0)
-weighted_avg precision = ---------------------------
+macro_avg precision = ---------------------------
                                   2
 
                    ( recall(1) * support(1) ) + ( recall(0) * support(0) )     
-macro_avg recall = ----------------------------------------------------------
+weighted_avg recall = ----------------------------------------------------------
                                   total number of support
 
 
 
                    ( precision(1) * support(1) ) + ( precision(0) * support(0) )     
-macro_avg precision = ----------------------------------------------------------
+weighted_avg precision = ----------------------------------------------------------
                                   total number of support
 
 

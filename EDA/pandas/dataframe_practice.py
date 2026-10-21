@@ -27,3 +27,7 @@ print(result.sort_values(by="Age",ascending=False))
 print()
 print(result.sample())
 print(result.dtypes)
+
+a = [1,2,3,4]
+b = ([6,7,8,9]
+c = a._append({"A":a,"B":b},reset_index(drop = True))

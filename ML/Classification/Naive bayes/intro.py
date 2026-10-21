@@ -12,6 +12,16 @@ probability(head) = 1/2 = 0.5
 p(tail) = 1/2 = 0.5
 p(event) = number of favourable outcomes / total number of outcomes
 
+Base theorem
+=================
+p(A|B) = p(B|A)*p(A)
+        -------------
+             p(B)
+
+p(A|B) = posterior probability
+p(B|A) = likelihood probability
+p(A) = prior probability
+p(B) = marginal probability
 
 Types of probability
 ==========================

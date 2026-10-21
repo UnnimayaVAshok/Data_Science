@@ -30,3 +30,7 @@ print(s_1.multiply(s_2))
 print(s_1.subtract(s_2))
 print(s_1.divide(s_2))
 print(pd.concat([s_1,s_2]))
+
+a = pd.Series([1,2,3,4])
+b = pd.Series([6,7,8,9])
+c = a._append(b,ignore_index=True)
